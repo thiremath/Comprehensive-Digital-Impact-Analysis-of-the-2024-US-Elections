@@ -2,7 +2,7 @@ This Project is a part of CS-515-01 course under Prof. Jeremy Blackburn
 
 # 🚀 Project Repository
 
-Welcome to my project repository! This repository contains three major projects focusing on **data collection, analysis, and scalable microservices architecture.**
+Welcome to my project repository! This repository contains three major projects focusing on **data collection, analysis, and web-based dashboard.**
 
 ## 📌 Projects Overview
 
