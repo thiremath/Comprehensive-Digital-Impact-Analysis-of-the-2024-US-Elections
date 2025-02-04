@@ -1,0 +1,97 @@
+\documentclass[sigconf]{acmart}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \BibTeX}}}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Social Media Data Science Pipelines Project 3 Proposal: Answering Questions}
+
+\author{Devang Jagdale}
+\email{djagdale@binghamton.edu}
+\affiliation{%
+  \institution{Binghamton University}
+  \city{Binghamton}
+  \state{New York}
+  \country{USA}
+}
+
+\author{Tejas Hiremath}
+\email{thiremath@binghamton.edu}
+\affiliation{%
+  \institution{Binghamton University}
+  \city{Binghamton}
+  \state{New York}
+  \country{USA}
+}
+
+\author{Chaitanya Jha}
+\email{cjha@binghamton.edu}
+\affiliation{%
+  \institution{Binghamton University}
+  \city{Binghamton}
+  \state{New York}
+  \country{USA}
+}
+
+\maketitle
+
+\section{Introduction}
+With a live data collection system established and a deep understanding of the dataset characteristics, this project involves addressing key research questions. This project focuses on answering the research questions and developing an interactive tool for querying and visualizing results from analyses conducted in the previous project.
+
+\section{Project Description}
+The primary objectives of this project are:
+\begin{itemize}
+    \item Answer at least one research question proposed in Project 2.
+    \item Create an interactive tool to enable querying and visualization for at least two analyses from Project 2 (three analyses for graduate groups). The tool can take various forms, such as a web-based dashboard, a command-line tool, or a web API.
+\end{itemize}
+
+\section{Research Question}
+The research question we plan to address in this project is:
+\begin{itemize}
+    \item How do temporal patterns in social media activity correlate with engagement metrics like comments?
+    \item How do shifts in sentiment metrics—such as happy, sad, angry, and hopeful correlate with key events and discussions in U.S. politics ?
+    \item How do the tones and volumes of discussions differ between mentions of different political candidates or parties?
+\end{itemize}
+
+\section{Analysis for Demo }
+\begin{itemize}
+\item Country Based Analysis
+\item Sentimental Analysis
+\item Live Data of Db for comments from 4Chan and Reddit
+\end{itemize}
+
+\section{Interactive Tool}
+The interactive tool will support the following analyses:
+\begin{enumerate}
+    \item Time-series analysis of engagement metrics (e.g., likes, shares, comments) over specific time periods.
+    \item Sentiment analysis of user comments across various posts.
+    \item Comparative analysis of engagement metrics across different post types (text, image, video).
+\end{enumerate}
+
+The tool will allow users to:
+\begin{itemize}
+    \item Query data by specifying time ranges and post types.
+    \item Adjust parameters like the granularity of time periods (daily, weekly, etc.) and sentiment thresholds.
+    \item Visualize results through interactive plots and summaries.
+\end{itemize}
+
+\section{Proposed Tools and Frameworks}
+The project will utilize the following tools and libraries:
+\begin{itemize}
+    \item \textbf{Flask/Django}: To develop a web-based interactive dashboard.
+    \item \textbf{Plotly/Matplotlib}: For creating interactive visualizations.
+    \item \textbf{Pandas}: For data manipulation and analysis.
+    \item \textbf{Scikit-learn}: For implementing sentiment analysis models.
+    \item \textbf{PostgreSQL}: For querying and managing the dataset.
+\end{itemize}
+
+
+\section{Conclusion}
+This project will build upon prior work by answering key research questions and providing an interactive framework for data exploration. It will also demonstrate the practical application of data science techniques for real-world social media analysis.
+
+\end{document}
